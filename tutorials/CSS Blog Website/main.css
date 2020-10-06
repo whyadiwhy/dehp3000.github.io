@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Open+Sans:400,400i');
+body, nav, section, footer, article, 
+h1, h2, h3, p, a, ul, li, dt, dd {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 100%;
+	text-decoration: none;
+	font-weight: normal;
+	color: inherit;
+	box-sizing: border-box;
+} 
+html { font-size: 62.5%; }
+body {
+	font: 1.4rem/1.6 'Open Sans', sans-serif;
+	color: #777777;
+	background: #222222;
+}
+h1, h2 {
+	line-height: 1;
+	font-family: 'Abel', sans-serif;
+	color: #ffffff;
+}				
+h1 { 
+	font-size: 7rem; 
+	margin: 2rem 0 4rem 0;
+}
+h2 { 
+	font-size: 2.6rem; 	
+	margin: 2rem 0 1rem 0;
+}
+h3 { 
+	font-size: 1.6rem; 
+	margin-bottom: 1rem;
+	color: #aaaaaa;
+}
+p {
+	margin-bottom: 2rem;
+}
+img {
+	display: block;
+	min-height: 15rem;
+	background: rgba(255,255,255,.1);
+	
+}
+a {
+	display: inline-block;
+	padding: .5rem 1rem;
+	background: rgba(255,255,255,.1);
+	color: #eeeeee;
+}
+nav, body > section, footer {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 3rem;
+}				
+body > section {
+	border-bottom: 1px solid rgba(255,255,255,.1);
+}
+header {
+	background: #ffffff;
+}
+#logo {
+	width: 10rem;
+	min-height: 3rem;
+	max-height: 3rem;
+	background: rgba(0,0,0,.2);	
+}
+nav li {
+	display: inline-block;
+}
+nav a {
+	color: #555555;
+}
+#blog article {
+	width: calc(100%/3 - 4rem/3);
+	float: left;
+}
+#blog img{
+	max-width: 300px;
+}
+#blog article:not(:nth-of-type(3)) {
+	margin-right: 2rem;
+}
+body > section::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+#blog article:nth-of-type(1) {
+	border-top: .5rem solid #e74c3c;
+}
+#blog article:nth-of-type(2) {
+	border-top: .5rem solid #f1c40f;
+}
+#blog article:nth-of-type(3) {
+	border-top: .5rem solid #1abc9c;
+}
+#news article {
+	width: calc(25% - 6rem/4);
+	float: left;
+}
+#news article:not(:nth-of-type(4)) {
+	margin-right: 2rem;
+}
+time span {
+	font-size: 5rem;
+	color: #eeeeee;
+	vertical-align: middle;
+}
+#about section {
+	width: calc(50% - 1rem);
+	float: left;
+}
+#about section:nth-of-type(odd) {
+	margin-right: 2rem;
+}
+footer section {
+	width: calc(30% - 2rem);
+	margin-right: 2rem;
+	float: left;
+}
+#tags {
+	width: calc(40%);
+	margin-right: 0rem;
+}
+#tags li {
+	display: inline-block;
+	padding: 0 .5rem .25rem .5rem;
+	background: #e74c3c;
+	color: #eeeeee;
+}

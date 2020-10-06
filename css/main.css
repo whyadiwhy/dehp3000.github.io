@@ -5,3 +5,9 @@
 html {
 	
 }
+nav li {
+	display: inline-block;
+}
+nav a {
+	color: #555555;
+}
