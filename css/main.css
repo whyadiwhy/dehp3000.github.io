@@ -1,13 +1,47 @@
 /* Bike Shop CSS
 ================================================== 
 ================================================== */
-
 html {
-	
+	font-size: 62.5%;
+	background-color: #000000;
+	max-width: 1200px;
+}
+
+body {
+	font: 1.6rem/1.5 "Program OT", Arial, sans-serif;
+	color: #888888;
+}
+
+header {
+	height: 48rem;
+	background-image: url(./../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+nav {
+	border-top: 5px solid red;
+	border-color: red;
+	background-color: rgb(0,0,0);
+	float: none;
+  	position: relative;
+  }
+nav ul {
+	float: none;
+	position: relative;
+	left: 35%;
+  	right: 30%;
 }
 nav li {
+	
 	display: inline-block;
+	text-decoration: none;
+	margin: auto 5px;	
 }
-nav a {
-	color: #555555;
+nav a{
+	display: block;
+	padding: 1rem 1rem;
+	color: #ffffff;
+}
+nav a:hover {
+	background: #444444;
 }
