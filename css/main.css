@@ -4,12 +4,14 @@
 html {
 	font-size: 62.5%;
 	background-color: #000000;
-	max-width: 1100px;
+	max-width: 1200px;
 	margin-left: auto;
     margin-right: auto;
     min-width: 1200px;
 }
-
+section:nth-of-type(even) {
+	background-color: ffffff;
+}
 body {
 	font: 1.6rem/1.5 "Program OT", Arial, sans-serif;
 	color: #888888;
@@ -60,13 +62,13 @@ h1 {
 
 /* Categories 3 columns section*/
 #categories {
-	max-width: 1000px;
+	background-color: black;
+	max-width: 900px;
 	margin: auto;
 }
 #categories article {
 	width: calc(100%/3 - 4rem/3);
-	float: none ;
-	display: inline-block;
+	float: left;
 	margin: .5rem;
 }
 #categories img {
@@ -87,4 +89,59 @@ h1 {
 	position: relative;
 	bottom: 10.5rem;
 	left: 12rem;
+}
+
+/*This starts the featured products section*/
+#featured {
+	margin: 5rem;
+	float: left;
+	position: relative;
+	/* top: 50%;
+	bottom: 0%; */
+}
+#featured article {
+	padding: 1rem;
+	width: calc(100%/4 - 4rem/4);
+	float: left;
+	overflow: hidden;
+}
+#featured article button {
+	float: right;
+}
+#featured h2 {
+	text-align: center;
+	
+}
+
+/*This starts Member benefits section*/
+#member {
+	background-image: url(./../images/gears.jpg);
+	max-width: 900px;
+	margin: auto;
+	border: solid royalblue 5px;
+	float: left;
+}
+#member article {
+	width: calc(100%/3 - 4rem/3);
+	float: left;
+	margin: .5rem;
+	text-align: center;
+}
+
+/*This starts the footer section*/
+
+footer {
+	border: 5px solid gold;
+	max-width: 1000px;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+footer section {
+	float: left;
+	margin: 5rem;
+	text-decoration: none;
+}
+footer section h2 {
+	display: none;
 }
