@@ -4,7 +4,10 @@
 html {
 	font-size: 62.5%;
 	background-color: #000000;
-	max-width: 1200px;
+	max-width: 1100px;
+	margin-left: auto;
+    margin-right: auto;
+    min-width: 1200px;
 }
 
 body {
@@ -13,10 +16,13 @@ body {
 }
 
 header {
+	float: none;
 	height: 49rem;
 	background-image: url(./../images/banner.jpg);
 	background-repeat: no-repeat;
 	background-position: bottom;
+	background-size: cover;
+	margin: auto;
 }
 nav {
 	border-top: 4px solid red;
@@ -50,4 +56,35 @@ h1 {
 	position: relative;
 	left: 12%;
 	top: 20%;
+}
+
+/* Categories 3 columns section*/
+#categories {
+	max-width: 1000px;
+	margin: auto;
+}
+#categories article {
+	width: calc(100%/3 - 4rem/3);
+	float: none ;
+	display: inline-block;
+	margin: .5rem;
+}
+#categories img {
+	float: none;
+	max-width: 100%;
+	max-height: 100%;
+}
+#categories button {
+	padding: .1rem 1.2rem;
+	color: #ffffff;
+	background-color: #c0392b;
+	border: none;
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+#categories p {
+	float: none;
+	position: relative;
+	bottom: 10.5rem;
+	left: 12rem;
 }
