@@ -59,8 +59,27 @@ h1 {
 	left: 12%;
 	top: 20%;
 }
+h2 {
+	text-align: center;
+	font-size: 2.6rem;
+}
+h2 span{
+	font-weight: bold;
+	color: #ffffff;
+	float: none;
+	top: 26px;
+	bottom: 0px;
+}
 
 /* Categories 3 columns section*/
+#categories h2{
+	color: #ffffff;
+	background-color: #444444;
+	background-color: transparent;
+	float: none;
+	position: relative;
+	top: 6rem;
+}
 #categories {
 	background-color: black;
 	max-width: 900px;
@@ -93,15 +112,17 @@ h1 {
 
 /*This starts the featured products section*/
 #featured {
-	margin: 5rem;
+	min-width: 1200px;
+	background-color: #FFFFFF;
 	float: left;
 	position: relative;
 	/* top: 50%;
 	bottom: 0%; */
 }
 #featured article {
-	padding: 1rem;
+	padding: 5rem 1rem 1rem 2rem;
 	width: calc(100%/4 - 4rem/4);
+	height: 45rem;
 	float: left;
 	overflow: hidden;
 }
@@ -110,13 +131,19 @@ h1 {
 }
 #featured h2 {
 	text-align: center;
-	
+	text-decoration: ;
 }
 
 /*This starts Member benefits section*/
 #member {
 	background-image: url(./../images/gears.jpg);
-	max-width: 900px;
+	background-blend-mode: soft-light;
+	background-position: 20%;
+	background-size: cover;
+	background-color: #444444;
+	height: 40rem;
+	max-width: 1200px;
+	min-width: 1200px;
 	margin: auto;
 	border: solid royalblue 5px;
 	float: left;
@@ -126,13 +153,14 @@ h1 {
 	float: left;
 	margin: .5rem;
 	text-align: center;
+	color: #888888;
 }
 
 /*This starts the footer section*/
 
 footer {
 	border: 5px solid gold;
-	max-width: 1000px;
+	min-width: 1200px;
 	float: left;
 	margin-left: auto;
 	margin-right: auto;
@@ -143,5 +171,36 @@ footer section {
 	text-decoration: none;
 }
 footer section h2 {
-	display: none;
+	/*display: none; */
+}
+footer .social li:hover{
+	opacity: 100%;
+}
+footer .social li{
+	background-image: url(./../images/social.png);
+	background-repeat: no-repeat;
+	opacity: 25%;
+	display: inline-block;
+}
+footer .social a{
+	overflow: hidden;
+	width: 3rem;
+	height: 3rem;
+	text-indent: -9999px;
+	display: block;
+}
+footer .social li:nth-of-type(1){
+	background-position: 0px 0px;
+}
+footer .social li:nth-of-type(2){
+	background-position: -3rem 0px;
+}
+footer .social li:nth-of-type(3){
+	background-position: -6rem 0px;
+}
+footer .social li:nth-of-type(4){
+	background-position: -9rem 0px;
+}
+footer .social li:nth-of-type(5){
+	background-position: -12rem 0px;
 }
