@@ -61,18 +61,18 @@ h1 {
 	top: 20%;
 }
 h2 {
-	color: #111111;
+	color: #888888;
 	font-weight: bold;
-	text-align: center;
+	text-align: left;
 	font-size: 2.6rem;
 	text-transform: uppercase;
+	width: 40rem;
+	margin: auto;
+	font-size: 2.6rem;
 }
 h2 span{
 	font-weight: bold;
 	color: #ffffff;
-	float: none;
-	top: 26px;
-	bottom: 0px;
 }
 h3 {
 	text-align: center;
@@ -152,6 +152,9 @@ h3 {
 #featured article button {
 	float: right;
 }
+#featured article p:nth-of-type(3){
+	font-weight: bold;
+}
 #featured article p span{
 	text-decoration: line-through;
 }
@@ -203,14 +206,18 @@ footer {
 	margin-right: auto;
 	color: #FFFFFF;
 }
-footer section:nth-of-type(1) a{
+footer h2{
 	color: #FFFFFF;
+	padding-left: 6rem;
 }
 footer section {
 	padding: 5rem 1rem 1rem 2rem;
 	width: calc(100%/4 - 4rem/4);
 	float: left;
 	text-decoration: none;
+}
+footer section h2:nth-of-type(2){
+	text-indent: -9999px;
 }
 
 footer .social li:hover{
