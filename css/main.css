@@ -357,3 +357,41 @@ This starts the club events page section*/
   	border-bottom-style: solid;
   	background-color: rgba(111, 111, 111, 0.27);
 }
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+This starts the shop page section*/
+#featuredProduct{
+	display: inline-block;
+}
+#featuredProduct article{
+	max-width: 30rem;
+	height: 30rem;
+	margin: auto;
+	float: left;
+}
+#search {
+	float: right;
+}
+#acc {
+	display: inline-block;
+	max-width: 900px;
+	background-color: #FFFFFF;
+}
+#acc article {
+	width: calc(100%/3 - 4rem/3);
+	float: left;
+	margin: .5rem;
+}
+#acc::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+#acc img{
+	-webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  	filter: grayscale(100%); /* FF 35+ */
+}
+#acc img:hover{
+	transition: filter .5s ease-in-out;
+  	-webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  	filter: grayscale(0%); /* FF 35+ */
+}
