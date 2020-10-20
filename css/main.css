@@ -371,7 +371,7 @@ This starts the club events page section*/
 }
 #events img {
 	float: none;
-	max-width: 78rem;
+	max-width: 64rem;
 	max-height: 40rem;
 	margin-left: 8rem;
 }
