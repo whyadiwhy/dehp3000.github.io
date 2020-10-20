@@ -336,7 +336,11 @@ footer .social li:nth-of-type(5){
 #copyright ul li:nth-of-type(1){
 	padding: 0%;
 }
-
+footer::after{
+	content: "";
+	display: block;
+	clear: both;
+}
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 This starts the club events page section*/
 #events {
