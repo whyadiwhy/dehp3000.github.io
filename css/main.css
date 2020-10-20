@@ -233,6 +233,8 @@ footer {
 }
 footer h2{
 	color: #FFFFFF;
+	text-align: right;
+	width: 100%;
 	padding-left: 6rem;
 }
 footer section {
@@ -272,7 +274,7 @@ footer .social li{
 	background-image: url(./../images/social.png);
 	background-repeat: no-repeat;
 	opacity: 25%;
-	display: inline-block;
+	float: right;
 }
 footer .social a{
 	overflow: hidden;
@@ -382,9 +384,26 @@ This starts the shop page section*/
 #search {
 	float: right;
 	max-width: 24rem;
+	margin-top: 2rem;
+}
+#search h3 {
+	color: #FFFFFF;
+}
+#search img {
+	-webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  	filter: grayscale(100%); /* FF 35+ */
+}
+#search img:hover{
+	transition: filter .5s ease-in-out;
+  	-webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  	filter: grayscale(0%); /* FF 35+ */
 }
 #search article {
 	margin: 1rem 0rem;
+}
+#search input {
+	width: 16rem;
+	margin-right: .9rem;
 }
 #acc {
 	display: inline-block;
