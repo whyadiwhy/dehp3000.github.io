@@ -409,26 +409,21 @@ This starts the contact page section*/
 #contact {
 	max-width: 44rem;
 }
-form input[id ="name"]{
+form #name{
 	width: 18rem;
 	margin: 1rem 1rem 0rem 0rem;
 }
-form input[id = "email"] {
+form #email {
 	width: 18rem;
 	margin: 1rem 1rem 0rem 0rem;
 }
-form input[id = "phone"] {
+form #phone {
 	width: 18rem;
 	margin: 1rem 1rem 1rem 1rem;
 }
-form input [id = "subject"]{
+form #subject {
 	width: 18rem;
 	margin: 1rem 1rem 1rem 0rem;
-}
-form input[type = "textarea"]{
-	width: 100%;
-	margin: 1rem 1rem 0rem 0rem;
-	resize: none;
 }
 #details {
 	float: right;
