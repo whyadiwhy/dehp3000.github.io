@@ -407,22 +407,22 @@ This starts the contact page section*/
 	height: 30rem;
 }
 #contact {
-	max-width: 50rem;
+	max-width: 44rem;
 }
 form input[id ="name"]{
-	width: 20rem;
+	width: 18rem;
 	margin: 1rem 1rem 0rem 0rem;
 }
 form input[id = "email"] {
-	width: 20rem;
+	width: 18rem;
 	margin: 1rem 1rem 0rem 0rem;
 }
 form input[id = "phone"] {
-	width: 20rem;
-	margin: 1rem 1rem 1rem 0rem;
+	width: 18rem;
+	margin: 1rem 1rem 1rem 1rem;
 }
 form input [id = "subject"]{
-	width: 20rem;
+	width: 18rem;
 	margin: 1rem 1rem 1rem 0rem;
 }
 form input[type = "textarea"]{
