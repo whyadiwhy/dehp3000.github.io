@@ -146,13 +146,11 @@ button{
 	clear: both;
 }
 #featured img{
-	-webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-  	filter: grayscale(100%); /* FF 35+ */
+  	filter: grayscale(100%);
 }
 #featured img:hover{
 	transition: filter .5s ease-in-out;
-  	-webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-  	filter: grayscale(0%); /* FF 35+ */
+  	filter: grayscale(0%); 
 }
 #featured article {
 	padding: 5rem 1rem 1rem 2rem;
@@ -441,13 +439,11 @@ This starts the shop page section*/
 	color: #FFFFFF;
 }
 #search img {
-	-webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-  	filter: grayscale(100%); /* FF 35+ */
+  	filter: grayscale(100%);
 }
 #search img:hover{
 	transition: filter .5s ease-in-out;
-  	-webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-  	filter: grayscale(0%); /* FF 35+ */
+  	filter: grayscale(0%);
 }
 #search article {
 	margin: 1rem 0rem;
@@ -472,13 +468,11 @@ This starts the shop page section*/
 	clear: both;
 }
 #acc img{
-	-webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-  	filter: grayscale(100%); /* FF 35+ */
+  	filter: grayscale(100%); 
 }
 #acc img:hover{
 	transition: filter .5s ease-in-out;
-  	-webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-  	filter: grayscale(0%); /* FF 35+ */
+  	filter: grayscale(0%);
 }
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
