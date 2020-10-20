@@ -88,6 +88,7 @@ button{
 	position: relative;
 	top: 6.8rem;
 	text-align: center;
+	width: 100%;
 }
 #categories {
 	background-color: black;
@@ -362,6 +363,15 @@ This starts the club events page section*/
 This starts the shop page section*/
 #featuredProduct{
 	display: inline-block;
+	margin: 1rem 0rem;
+}
+#featuredProduct img {
+	max-width: 40rem;
+	max-height: 40rem;
+}
+#featuredProduct h2{
+	text-align: center;
+	width: 100%;
 }
 #featuredProduct article{
 	max-width: 30rem;
@@ -371,6 +381,10 @@ This starts the shop page section*/
 }
 #search {
 	float: right;
+	max-width: 24rem;
+}
+#search article {
+	margin: 1rem 0rem;
 }
 #acc {
 	display: inline-block;
@@ -433,4 +447,7 @@ form #subject {
 	bottom: 24rem;
 	display: block;
 	max-height: 0rem;
+}
+details p {
+	padding: 1rem;
 }
