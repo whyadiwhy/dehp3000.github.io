@@ -423,12 +423,14 @@ This starts the shop page section*/
 #featuredProduct h2{
 	text-align: center;
 	width: 100%;
+	margin-left: 20rem;
 }
 #featuredProduct article{
 	max-width: 30rem;
 	height: 30rem;
 	margin: auto;
 	float: left;
+	margin-left: 30rem;
 }
 #search {
 	float: right;
