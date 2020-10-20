@@ -66,7 +66,6 @@ h2 span{
 	color: #ffffff;
 }
 h3 {
-	text-align: center;
 	font-size: 2.0rem;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -129,6 +128,18 @@ button{
 	max-width: 1200px;
 	background-color: #FFFFFF;
 }
+#featured strong {
+	display: block;
+	font-weight: bold;
+	color: #111111;
+	font-size: 2.6rem;
+}
+#featured p:nth-of-type(2) {
+	font-weight: bold;
+}
+#featured span {
+	font-weight: normal;
+}
 #featured::after{
 	content: "";
 	display: block;
@@ -160,8 +171,10 @@ button{
 	text-decoration: line-through;
 }
 #featured h2 {
-	text-align: center;
-	text-decoration: none;
+	text-align: left;
+	margin: 0rem;
+	margin-left: 2rem;
+	font-size: 2.0rem;
 }
 
 /*This starts Member benefits section*/
@@ -175,9 +188,15 @@ button{
 	max-width: 1200px;
 	margin: auto;
 }
+#member h2 {
+	text-align: center;
+	font-size: 2.0rem;
+}
 #member strong{
 	color: #FFFFFF;
 	display: block;
+	font-weight: bold;
+	font-size: 2.6rem;
 }
 #member ul {
 	max-width: 1200px;
