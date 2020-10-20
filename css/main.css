@@ -395,3 +395,38 @@ This starts the shop page section*/
   	-webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
   	filter: grayscale(0%); /* FF 35+ */
 }
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+This starts the contact page section*/
+#map {
+	display: block;
+	margin: auto;
+	max-width: 50rem;
+}
+#map img{
+	height: 30rem;
+}
+#contact {
+	max-width: 50rem;
+}
+form input[id ="name"]{
+	width: 20rem;
+	margin: 1rem 1rem 0rem 0rem;
+}
+form input[id = "email"] {
+	width: 20rem;
+	margin: 1rem 1rem 0rem 0rem;
+}
+form input[id = "phone"] {
+	width: 20rem;
+	margin: 1rem 1rem 1rem 0rem;
+}
+form input [id = "subject"]{
+	width: 20rem;
+	margin: 1rem 1rem 1rem 0rem;
+}
+form input[type = "textarea"]{
+	width: 100%;
+	margin: 1rem 1rem 0rem 0rem;
+	resize: none;
+}
