@@ -87,6 +87,7 @@ button{
 	background-color: rgba(40, 39, 39, 0.755);/*approximate color*/
 	position: relative;
 	top: 6.8rem;
+	text-align: center;
 }
 #categories {
 	background-color: black;
@@ -419,7 +420,7 @@ form #email {
 }
 form #phone {
 	width: 18rem;
-	margin: 1rem 1rem 1rem 1rem;
+	margin: 1rem 1rem 1rem 0rem;
 }
 form #subject {
 	width: 18rem;
