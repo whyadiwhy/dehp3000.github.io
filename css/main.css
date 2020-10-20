@@ -267,14 +267,17 @@ footer section h2:nth-of-type(2){
 	color: #FFFFFF;
 	font-size: 1.6rem;
 }
+footer .social {
+	float: right;
+}
 footer .social li:hover{
 	opacity: 100%;
 }
 footer .social li{
 	background-image: url(./../images/social.png);
 	background-repeat: no-repeat;
+	display: inline-block;
 	opacity: 25%;
-	float: right;
 }
 footer .social a{
 	overflow: hidden;
