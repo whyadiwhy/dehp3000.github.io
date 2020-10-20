@@ -236,6 +236,7 @@ footer h2{
 	text-align: right;
 	width: 100%;
 	padding-left: 6rem;
+	font-weight: bold;
 }
 footer section {
 	padding: 5rem 1rem 1rem 2rem;
@@ -248,15 +249,23 @@ footer section h2:nth-of-type(2){
 #store a{
 	text-transform: uppercase;
 	color: #FFFFFF;
+	font-weight: bold;
 }
 #news li:nth-of-type(1) a{
 	text-transform: uppercase;
 	color: #FFFFFF;
 	font-size: 1.6rem;
+	font-weight: bold;
 }
 #news li a{
 	color: #888888;
 	font-size: 1.2rem;
+}
+#news li:nth-of-type(2) a {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-size: 1.6rem;
+	font-weight: bold;
 }
 #help li a{
 	color: #888888;
@@ -266,6 +275,7 @@ footer section h2:nth-of-type(2){
 	text-transform: uppercase;
 	color: #FFFFFF;
 	font-size: 1.6rem;
+	font-weight: bold;
 }
 footer .social {
 	float: right;
@@ -335,12 +345,13 @@ This starts the club events page section*/
 }
 #events img {
 	float: none;
-	width: 78rem;
-	height: 52rem;
+	max-width: 78rem;
+	max-height: 52rem;
 	margin-left: 2rem;
 }
 #events article {
-	width: 82rem;
+	width: 78rem;
+	margin-right: 2rem;
 }
 #past {
 	float: right;
