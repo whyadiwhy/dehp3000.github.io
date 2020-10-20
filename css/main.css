@@ -430,3 +430,11 @@ form input[type = "textarea"]{
 	margin: 1rem 1rem 0rem 0rem;
 	resize: none;
 }
+#details {
+	float: right;
+	max-width: 34rem;
+	position: relative;
+	bottom: 24rem;
+	display: block;
+	max-height: 0rem;
+}
