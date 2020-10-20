@@ -274,10 +274,11 @@ footer .social li:hover{
 	opacity: 100%;
 }
 footer .social li{
+	float: left;
 	background-image: url(./../images/social.png);
 	background-repeat: no-repeat;
-	display: inline-block;
 	opacity: 25%;
+	margin: 0.5rem;
 }
 footer .social a{
 	overflow: hidden;
