@@ -366,11 +366,14 @@ This starts the club events page section*/
 	float: none;
 	background-color: #FFFFFF;
 }
+#events h3 {
+	text-align: center;
+}
 #events img {
 	float: none;
 	max-width: 78rem;
-	max-height: 52rem;
-	margin-left: 2rem;
+	max-height: 40rem;
+	margin-left: 8rem;
 }
 #events article {
 	width: 78rem;
