@@ -1,0 +1,211 @@
+<!DOCTYPE html> 
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+        <meta name="description" content="Search results description">
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<!-- Make sure to update the page title -->
+		<title>Admin Orders view</title>
+		
+	</head>
+	<body>
+	
+		<!-- visible page content -->
+		<header>
+			<!-- profile -->
+
+			<!-- navigation -->
+			<nav role="navigation">
+				<ul>
+					<li><a href="/dashboard">dashboard</a></li>
+					<li><a href="/orders" aria-current="page">orders</a></li>
+					<li><a href="/users">users</a></li>
+					<li><a href="/analytics">analytics</a></li>
+				</ul>
+			<nav>
+			
+		</header>
+
+		<main>
+			<!-- content header -->
+			<header>
+				<h1>Online Orders</h1>
+				<!-- breadcrumbs -->
+				<nav aria-label="breadcrumb">
+					<ol>
+						<li><a href="#">company</a></li>
+						<li><a href="#">admin</a></li>
+						<li><a aria-current="page">orders</a></li>
+					</ol>
+				</nav>
+			</header>
+
+			<!-- graph -->
+			<section id="graph">
+				<h2>Orders by Month</h2>
+				<!-- data -->
+				<ul>
+					<li><data value="500">Jan</data></li>
+					<li><data value="300">Feb</data></li>
+					<li><data value="100">Mar</data></li>
+					<li><data value="600">Apr</data></li>
+					<li><data value="400" aria-current="true">May</data></li>
+					<li><data value="500">Jun</data></li>
+					<li><data value="400">July</data></li>
+					<li><data value="500">Aug</data></li>
+					<li><data value="600">Sept</data></li>
+					<li><data value="300">Oct</data></li>
+					<li><data value="600">Nov</data></li>
+					<li><data value="400">Dec</data></li>					
+				</ul>
+			</section>
+
+			<!-- orders -->
+			<section id="orders">
+				<h2>Orders</h2>
+				<!-- form -->
+				<form action="#" method="post">
+
+					<!-- search -->
+					<div>
+						<label for="search">search:</label>
+						<input type="text" name="search" id="search" placeholder="Looking for something?">
+						<button type="submit">search</button>
+					</div>
+
+					<!-- filters -->
+					<fieldset id="filters">
+						<legend>filter by:</legend>
+						<div>
+							<label for="date">Date</label>
+							<select name="date" id="date">
+								<option>month</option>
+								<option value="1">Jan</option>
+								<option value="2">Feb</option>
+							</select>
+						</div>
+						<div>
+							<label for="product">Product</label>
+							<select name="product" id="product">
+								<option>category</option>
+								<option value="clothes">clothes</option>
+								<option value="electronics">electronics</option>
+							</select>
+						</div>
+						<div>
+							<label for="status">Status</label>
+							<select name="status" id="status">
+								<option>status</option>
+								<option value="active">active</option>
+								<option value="shipped">shipped</option>
+							</select>
+						</div>				
+					</fieldset>
+				</form>
+
+				<!-- table -->
+				<table>
+					<thead>
+						<tr>
+							<th scope="col">Order ID</th>
+							<th scope="col">Date</th>
+							<th scope="col">Product</th>
+							<th scope="col"><abbr title="Quantity">Qty</abbr></th>
+							<th scope="col">Total</th>
+							<th scope="col">Shipping</th>
+							<th scope="col">status</th>
+						</tr>
+					</thead>
+					<tbody>
+						
+						<!-- individual order -->
+						<tr>
+							<th scope="row">12467</th>
+							<td><time datetime="2019-03-09">March 9th, 2019</time></td>
+							<td>Product title</td>
+							<td>2</td>
+							<td>$12.99</td>
+							<td>Y</td>
+							<td><button>view order</button></td>
+						</tr>
+						
+						<!-- individual order -->
+						<tr>
+							<th scope="row">12467</th>
+							<td><time datetime="2019-03-09">March 9th, 2019</time></td>
+							<td>Product title</td>
+							<td>2</td>
+							<td>$12.99</td>
+							<td>Y</td>
+							<td><button>view order</button></td>
+						</tr>
+						
+						<!-- individual order -->
+						<tr>
+							<th scope="row">12467</th>
+							<td><time datetime="2019-03-09">March 9th, 2019</time></td>
+							<td>Product title</td>
+							<td>2</td>
+							<td>$12.99</td>
+							<td>Y</td>
+							<td><button>view order</button></td>
+						</tr>
+						
+						<!-- individual order -->
+						<tr>
+							<th scope="row">12467</th>
+							<td><time datetime="2019-03-09">March 9th, 2019</time></td>
+							<td>Product title</td>
+							<td>2</td>
+							<td>$12.99</td>
+							<td>Y</td>
+							<td><button>view order</button></td>
+						</tr>
+						
+						<!-- individual order -->
+						<tr>
+							<th scope="row">12467</th>
+							<td><time datetime="2019-03-09">March 9th, 2019</time></td>
+							<td>Product title</td>
+							<td>2</td>
+							<td>$12.99</td>
+							<td>Y</td>
+							<td><button>view order</button></td>
+						</tr>
+
+						<!-- individual order -->
+						<tr>
+							<th scope="row">12467</th>
+							<td><time datetime="2019-03-09">March 9th, 2019</time></td>
+							<td>Product title</td>
+							<td>2</td>
+							<td>$12.99</td>
+							<td>Y</td>
+							<td><button>view order</button></td>
+						</tr>	
+					<tbody>
+				</table>
+
+				<!-- pagination -->
+				<nav aria-label="pagination">
+					<ul>
+						<li><button>previous</button></li>
+						<li><button aria-current="page">1</button></li>
+						<li><button>2</button></li>
+						<li><button>3</button></li>
+						<li><button>next</button></li>
+					</ul>
+				</nav>
+			</section>
+
+		</main>
+
+		<article aria-label="profile">
+			<img src="#urltoimg" alt="description of image">
+			<h3>Last, First</h3>
+			<p>System Admin</p>
+		</article>
+
+		
+	</body>	
+</html>
