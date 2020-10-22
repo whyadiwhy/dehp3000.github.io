@@ -59,7 +59,6 @@ h2 {
 	text-transform: uppercase;
 	width: 40rem;
 	margin: auto;
-	font-size: 2.6rem;
 }
 h2 span{
 	font-weight: bold;
@@ -117,7 +116,6 @@ button{
 	font-weight: bold;
 }
 #categories p {
-	float: none;
 	position: relative;
 	bottom: 9.5rem;
 	text-align: center;
@@ -132,7 +130,6 @@ button{
 	display: block;
 	font-weight: bold;
 	color: #111111;
-	font-size: 2.6rem;
 }
 #featured p:nth-of-type(2) {
 	font-weight: bold;
@@ -194,7 +191,6 @@ button{
 	color: #FFFFFF;
 	display: block;
 	font-weight: bold;
-	font-size: 2.6rem;
 }
 #member ul {
 	max-width: 1200px;
@@ -247,6 +243,7 @@ footer {
 	margin-left: auto;
 	margin-right: auto;
 	color: #FFFFFF;
+	height: 33rem;
 }
 footer h2{
 	color: #FFFFFF;
@@ -348,7 +345,7 @@ footer .social li:nth-of-type(5){
 	float: left;
 }
 #copyright ul{
-	width: calc(100%/2 - 1rem/2rem);
+	width: calc(100%/2 - 1rem/2);
 }
 #copyright ul li:nth-of-type(1){
 	padding: 0%;
@@ -478,40 +475,50 @@ This starts the shop page section*/
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 This starts the contact page section*/
 #map {
-	display: block;
-	margin: auto;
-	max-width: 50rem;
+	margin: auto 0;
+	max-width: 1200px;
+	width: calc(100%/1 - 2rem/2);
 }
 #map img{
 	height: 30rem;
+	width: 50rem;
 }
 #contact {
-	max-width: 44rem;
+	max-width: 1200px;
+	margin: auto;
+	height: 30rem;
 }
-form #name{
-	width: 18rem;
+#contact h2 strong {
+	text-align: right;
+	font-weight: lighter;
+}
+#contactForm {
+	float: left;
+	width: 60rem;
+}
+#contactForm #name{
+	width: 28rem;
 	margin: 1rem 1rem 0rem 0rem;
 }
-form #email {
-	width: 18rem;
+#contactForm #email {
+	width: 28rem;
 	margin: 1rem 1rem 0rem 0rem;
 }
-form #phone {
-	width: 18rem;
+#contactForm #phone {
+	width: 28rem;
 	margin: 1rem 1rem 1rem 0rem;
 }
-form #subject {
-	width: 18rem;
+#contactForm #subject {
+	width: 28rem;
 	margin: 1rem 1rem 1rem 0rem;
+}
+#contactForm textarea {
+	width: 57.5rem;
 }
 #details {
 	float: right;
 	max-width: 34rem;
-	position: relative;
-	bottom: 24rem;
-	display: block;
-	max-height: 0rem;
 }
-details p {
+#details p {
 	padding: 1rem;
 }
