@@ -58,7 +58,6 @@ h2 {
 	font-size: 2.6rem;
 	text-transform: uppercase;
 	width: 40rem;
-	margin: auto;
 }
 h2 span{
 	font-weight: bold;
@@ -186,6 +185,7 @@ button{
 #member h2 {
 	text-align: center;
 	font-size: 2.0rem;
+	margin: auto;
 }
 #member strong{
 	color: #FFFFFF;
@@ -480,12 +480,13 @@ This starts the contact page section*/
 }
 #map img{
 	height: 40rem;
-	width: 100rem;
+	width: calc(100%/1 - 40rem/2);
 	margin-left: 10rem;
 	margin-right: 10rem;
 }
 #contact {
-	max-width: 1200px;
+	max-width: 1000px;
+	width: calc(100%/1 - 2rem/2);
 	margin: auto;
 	height: 30rem;
 }
@@ -517,7 +518,7 @@ This starts the contact page section*/
 }
 #details {
 	float: right;
-	max-width: 34rem;
+	max-width: 40rem;
 }
 #details p {
 	padding: 1rem;
