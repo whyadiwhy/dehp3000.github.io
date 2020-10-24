@@ -475,24 +475,22 @@ This starts the shop page section*/
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 This starts the contact page section*/
 #map {
-	margin: auto 0;
 	max-width: 1200px;
 	width: calc(100%/1 - 2rem/2);
 }
 #map img{
-	height: 30rem;
-	width: 50rem;
-	margin-left: 0;
-	margin-right: 0;
+	height: 40rem;
+	width: 100rem;
+	margin-left: 10rem;
+	margin-right: 10rem;
 }
 #contact {
 	max-width: 1200px;
 	margin: auto;
 	height: 30rem;
 }
-#contact h2 strong {
-	text-align: right;
-	font-weight: lighter;
+#contact >h2 {
+	text-indent: -9999px;
 }
 #contactForm {
 	float: left;
@@ -523,4 +521,12 @@ This starts the contact page section*/
 }
 #details p {
 	padding: 1rem;
+}
+#details h2 {
+	text-align: left;
+}
+div::after{
+	content: "";
+	display: block;
+	clear: both;
 }
