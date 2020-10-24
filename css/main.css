@@ -1,6 +1,4 @@
-/* Bike Shop CSS
-================================================== 
-================================================== */
+/* Bike Shop CSS ================================================== ================================================== */
 html {
 	font-size: 62.5%;
 }
@@ -10,9 +8,8 @@ body {
 	background-color: #000000;
 	max-width: 1200px;
 	margin-left: auto;
-    margin-right: auto;
+	margin-right: auto;
 }
-
 header {
 	height: 49rem;
 	background-image: url(./../images/banner.jpg);
@@ -25,8 +22,8 @@ nav {
 	font-size: 1.4rem;
 	border-top: 4px solid red;
 	background-color: #444444;
-  	position: relative;
-  }
+	position: relative;
+}
 nav ul {
 	width: 38rem;
 	margin: auto;
@@ -35,7 +32,7 @@ nav li {
 	display: inline-block;
 	text-decoration: none;
 	text-transform: uppercase;
-	margin: auto 5px;	
+	margin: auto 5px;
 }
 nav a{
 	display: block;
@@ -77,11 +74,11 @@ button{
 	font-size: 1.4rem;
 	font-weight: bold;
 }
-
 /* Categories 3 columns section*/
 #categories h2{
 	color: #ffffff;
-	background-color: rgba(40, 39, 39, 0.755);/*approximate color*/
+	background-color: rgba(40, 39, 39, 0.755);
+   /*approximate color*/
 	position: relative;
 	top: 6.8rem;
 	text-align: center;
@@ -119,7 +116,6 @@ button{
 	bottom: 9.5rem;
 	text-align: center;
 }
-
 /*This starts the featured products section*/
 #featured {
 	max-width: 1200px;
@@ -142,11 +138,11 @@ button{
 	clear: both;
 }
 #featured img{
-  	filter: grayscale(100%);
+	filter: grayscale(100%);
 }
 #featured img:hover{
 	transition: filter .5s ease-in-out;
-  	filter: grayscale(0%); 
+	filter: grayscale(0%);
 }
 #featured article {
 	padding: 5rem 1rem 1rem 2rem;
@@ -170,7 +166,6 @@ button{
 	margin-left: 2rem;
 	font-size: 2.0rem;
 }
-
 /*This starts Member benefits section*/
 #member {
 	background-image: url(./../images/gears.jpg);
@@ -235,15 +230,12 @@ button{
 	display: block;
 	clear: both;
 }
-
 /*This starts the footer section*/
-
 footer {
 	max-width: 1200px;
-	margin-left: auto;
-	margin-right: auto;
+	display: block;
+	margin: auto;
 	color: #FFFFFF;
-	height: 33rem;
 }
 footer h2{
 	color: #FFFFFF;
@@ -339,7 +331,6 @@ footer .social li:nth-of-type(5){
 }
 #copyright ul:nth-of-type(2){
 	float: right;
-	
 }
 #copyright ul:nth-of-type(1){
 	float: left;
@@ -355,8 +346,7 @@ footer::after{
 	display: block;
 	clear: both;
 }
-/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-This starts the club events page section*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! This starts the club events page section*/
 #events {
 	float: none;
 	background-color: #FFFFFF;
@@ -400,13 +390,12 @@ This starts the club events page section*/
 #past input {
 	width: 24rem;
 	border-top-style: solid;
-  	border-right-style: solid;
-  	border-left-style: solid;
-  	border-bottom-style: solid;
-  	background-color: rgba(111, 111, 111, 0.27);
+	border-right-style: solid;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	background-color: rgba(111, 111, 111, 0.27);
 }
-/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-This starts the shop page section*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! This starts the shop page section*/
 #featuredProduct{
 	display: inline-block;
 	margin: 1rem 0rem;
@@ -436,11 +425,11 @@ This starts the shop page section*/
 	color: #FFFFFF;
 }
 #search img {
-  	filter: grayscale(100%);
+	filter: grayscale(100%);
 }
 #search img:hover{
 	transition: filter .5s ease-in-out;
-  	filter: grayscale(0%);
+	filter: grayscale(0%);
 }
 #search article {
 	margin: 1rem 0rem;
@@ -465,29 +454,23 @@ This starts the shop page section*/
 	clear: both;
 }
 #acc img{
-  	filter: grayscale(100%); 
+	filter: grayscale(100%);
 }
 #acc img:hover{
 	transition: filter .5s ease-in-out;
-  	filter: grayscale(0%);
+	filter: grayscale(0%);
 }
-
-/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-This starts the contact page section*/
-#map {
-	max-width: 1200px;
-	width: calc(100%/1 - 2rem/2);
-}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! This starts the contact page section*/
 #map img{
 	display: block;
 	margin: auto;
 	width: 100rem;
+   /*I used width because image is smaller than needed*/
 }
 #contact {
-	max-width: 1000px;
-	width: calc(100%/1 - 2rem/2);
+	max-width: 100rem;
+	display: block;
 	margin: auto;
-	height: 30rem;
 }
 #contact >h2 {
 	text-indent: -9999px;
@@ -498,19 +481,19 @@ This starts the contact page section*/
 }
 #contactForm #name{
 	width: 28rem;
-	margin: 1rem 1rem 0rem 0rem;
+	margin: 1rem 1rem;
 }
 #contactForm #email {
 	width: 28rem;
-	margin: 1rem 1rem 0rem 0rem;
+	margin: 1rem 1rem;
 }
 #contactForm #phone {
 	width: 28rem;
-	margin: 1rem 1rem 1rem 0rem;
+	margin: 1rem 1rem 1rem;
 }
 #contactForm #subject {
 	width: 28rem;
-	margin: 1rem 1rem 1rem 0rem;
+	margin: 1rem 1rem 1rem;
 }
 #contactForm textarea {
 	width: 57.5rem;
