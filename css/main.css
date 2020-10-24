@@ -479,10 +479,13 @@ This starts the contact page section*/
 	width: calc(100%/1 - 2rem/2);
 }
 #map img{
-	height: 40rem;
+	display: block;
+	margin: auto;
+	width: 80rem;
+	/* height: 40rem;
 	width: calc(100%/1 - 40rem/2);
 	margin-left: 10rem;
-	margin-right: 10rem;
+	margin-right: 10rem; */
 }
 #contact {
 	max-width: 1000px;
