@@ -481,11 +481,7 @@ This starts the contact page section*/
 #map img{
 	display: block;
 	margin: auto;
-	width: 80rem;
-	/* height: 40rem;
-	width: calc(100%/1 - 40rem/2);
-	margin-left: 10rem;
-	margin-right: 10rem; */
+	width: 100rem;
 }
 #contact {
 	max-width: 1000px;
