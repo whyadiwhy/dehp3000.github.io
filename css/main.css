@@ -482,6 +482,8 @@ This starts the contact page section*/
 #map img{
 	height: 30rem;
 	width: 50rem;
+	margin-left: 0;
+	margin-right: 0;
 }
 #contact {
 	max-width: 1200px;
