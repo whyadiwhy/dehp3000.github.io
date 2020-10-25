@@ -6,9 +6,10 @@ body {
 	font: 1.6rem/1.5 "Program OT", Arial, sans-serif;
 	color: #888888;
 	background-color: #000000;
+}
+#wrap {
 	max-width: 1200px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 }
 header {
 	height: 49rem;
@@ -346,19 +347,19 @@ footer::after{
 	display: block;
 	clear: both;
 }
-/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! This starts the club events page section*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+This starts the club events page section*/
 #events {
-	float: none;
 	background-color: #FFFFFF;
 }
 #events h3 {
 	text-align: center;
 }
 #events img {
-	float: none;
-	max-width: 64rem;
+	max-width: 50rem;
 	max-height: 40rem;
-	margin-left: 8rem;
+	display: block;
+	margin: auto;
 }
 #events article {
 	width: 78rem;
@@ -395,7 +396,8 @@ footer::after{
 	border-bottom-style: solid;
 	background-color: rgba(111, 111, 111, 0.27);
 }
-/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! This starts the shop page section*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+This starts the shop page section*/
 #featuredProduct{
 	display: inline-block;
 	margin: 1rem 0rem;
@@ -460,7 +462,8 @@ footer::after{
 	transition: filter .5s ease-in-out;
 	filter: grayscale(0%);
 }
-/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! This starts the contact page section*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+This starts the contact page section*/
 #map img{
 	display: block;
 	margin: auto;
