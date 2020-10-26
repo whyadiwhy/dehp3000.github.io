@@ -78,8 +78,7 @@ button{
 /* Categories 3 columns section*/
 #categories h2{
 	color: #ffffff;
-	background-color: rgba(40, 39, 39, 0.755);
-   /*approximate color*/
+	background-color: rgba(40, 39, 39, 0.755);/*approximate color*/
 	position: relative;
 	top: 6.8rem;
 	text-align: center;
@@ -234,9 +233,10 @@ button{
 /*This starts the footer section*/
 footer {
 	max-width: 1200px;
-	display: block;
+	display: inline-block;
 	margin: auto;
 	color: #FFFFFF;
+	height: 30rem;
 }
 footer h2{
 	color: #FFFFFF;
@@ -399,24 +399,39 @@ This starts the club events page section*/
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
 This starts the shop page section*/
 #featuredProduct{
-	display: inline-block;
-	margin: 1rem 0rem;
+	width: 90rem;
+	float: left;
+	margin: 2 2 auto;
 }
-#featuredProduct img {
-	max-width: 40rem;
-	max-height: 40rem;
+#sorting {
+	float: right;
 }
 #featuredProduct h2{
 	text-align: center;
 	width: 100%;
 	margin-left: 20rem;
 }
-#featuredProduct article{
-	max-width: 30rem;
-	height: 30rem;
+#featuredProduct img {
+	max-height: 20rem;
+	display: block;
 	margin: auto;
-	float: left;
-	margin-left: 30rem;
+}
+#featuredProduct > article {
+	text-align: center;
+	max-width: 45rem;
+	max-height: 30rem;
+	display: block;
+	margin: 0 auto;
+}
+#featuredProduct > article {
+	content: "";
+	display: block;
+	clear: both;
+}
+#featuredProduct {
+	content: "";
+	display: block;
+	clear: both;
 }
 #search {
 	float: right;
@@ -440,8 +455,13 @@ This starts the shop page section*/
 	width: 16rem;
 	margin-right: .9rem;
 }
+#search::after{
+	content: "";
+	display: block;
+	clear: both;
+} 
 #acc {
-	display: inline-block;
+	float: left;
 	max-width: 900px;
 	background-color: #FFFFFF;
 }
@@ -484,19 +504,19 @@ This starts the contact page section*/
 }
 #contactForm #name{
 	width: 28rem;
-	margin: 1rem 1rem;
+	margin: auto;
 }
 #contactForm #email {
 	width: 28rem;
-	margin: 1rem 1rem;
+	margin: 0 1rem 1rem;
 }
 #contactForm #phone {
 	width: 28rem;
-	margin: 1rem 1rem 1rem;
+	margin: auto
 }
 #contactForm #subject {
 	width: 28rem;
-	margin: 1rem 1rem 1rem;
+	margin: 1rem 1rem 1rem 0;
 }
 #contactForm textarea {
 	width: 57.5rem;
