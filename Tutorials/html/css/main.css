@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Open+Sans:400,400i');
+
+/* CSS Reset ============================== */
+body, main, section, article, figure, 
+h1, h2, h3, p, a, ul, li, button {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 100%;
+	text-decoration: none;
+	font-weight: normal;
+	color: inherit;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+} 
+
+/* Typography Defaults ============================== */
+html { font-size: 62.5%; }
+body {
+	color: #777777;
+	font: 1.3rem/1.8 'Open Sans', sans-serif;
+	background: #eeeeee;
+}
+header, h1, h2, h3, h4 {
+	font-family: 'Abel', sans-serif;
+	text-transform: uppercase;
+	line-height: 1;
+	font-weight: bold;
+}
+h1, h2, h3 { text-align: center; }
+h1, h2, main h4 { color: #222222; }
+h1 { font-size: 3rem; }
+h2 { font-size: 2.6rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem;	}
+p + p { margin-top: 2rem; }
+img {
+	display: block;
+	width: 100%;
+	height: 15rem;
+	margin: 1rem 0;
+	background: #cccccc;
+	object-fit: cover;
+}
+blockquote {
+	padding: 2rem;
+	margin: 3rem 0;
+	background: #eeeeee;
+	font-style: italic;
+}
+blockquote footer { padding: 1rem 0 0 3rem; }
+
+/* Default Structure ============================== */
+main {
+	max-width: 900px;
+	margin: 3rem auto;
+}
+#featured::after, main::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* Header ============================== */
+header {
+	padding-top: 3rem;
+	text-align: center;
+}
+nav {
+	margin-top: 3rem;
+	background: #222222;
+	color: #eeeeee;
+}
+nav li { display: inline-block; }
+nav a {
+	display: block;
+	padding: 1.5rem;
+}
+
+/* Features ============================== */
+ #featured {
+	background: #222222;
+	text-align: center;
+	padding-bottom: 2rem;
+}
+#featured article {
+	width: calc(100%/3);
+	border: 1px solid #222222;
+	float: left;
+}
+#featured h3 {
+	padding-top: 2rem;
+	color: #eeeeee;
+}
+#featured h3::after {
+	content: '';
+	display: block;
+	width: 2rem;
+	height: 1px;
+	background: #eeeeee;
+	margin: .8rem auto;
+}
+#featured img {
+	width: 100%;
+	height: 25rem;
+	object-fit: cover;
+	margin: 0;
+	filter: grayscale(50%);
+}
+
+/* Article ============================== */
+main article {
+	width: calc(100%/3 * 2);
+	float: left;
+	padding: 0 3rem 2rem 3rem;
+	background: #ffffff;
+}
+article > p:first-of-type::first-letter {
+	float: left;
+	font-size: 7rem;
+	line-height: 6rem;	
+	padding-top: .5rem;
+	padding-right: .5rem;
+	color: #222222;
+}
+dt { display: none; }
+dd { display: inline-block; }
+
+/* Aside ============================== */
+aside {
+	width: calc(100%/3 - 3rem);
+	float: right;
+}
+aside img {
+	height: 10rem;
+}
+aside section {
+	padding: 2rem;
+	margin-bottom: 3rem;
+	background: #ffffff;
+}
+.social { margin-top: 1rem; }
+.social li { display: inline-block; }
+.social a {
+	display: block;
+	width: 2.5rem;
+	height: 2.5rem;
+	margin: 0 .25rem;
+	background: rgba(0,0,0,.2);
+	color: transparent;
+}
