@@ -1,23 +1,88 @@
+/*Make font size easy*/
+html {
+    font-size: 62.5%;
+    background-color: black;
+}
+h1 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+h1 em {
+    color: red;
+}
+header {
+    background-color: black;
+    border-bottom: solid .1rem rgb(72, 72, 72);
+}
+header nav {
+    border-bottom:solid .1rem rgb(72, 72, 72);
+    
+}
+header li {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+header a {
+    color: white;
+    font-weight: bold;
+}/*display list items left to right and add spacing*/
+header nav ul li {
+    display: inline-block;
+    padding-right: 4rem;
+}
+/*remove styling from unordered lists*/
 ul {
     list-style: none;
 }
+/*remove underlines from links*/
 a {
     text-decoration: none;
 }
-header nav ul li {
-    display: inline-block;
-    padding-right: 5rem;
+
+/*description list change foonts color and capitalize questions*/
+p {
+    color: rgb(125, 143, 149);
 }
+dl dt {
+    text-transform: uppercase;
+    color: red;
+}
+dl dd {
+    color: rgb(125, 143, 149);
+}
+dl em {
+    color: red;
+}
+/*display list item for social media left to right and add spacing*/
 .social li {
     display: inline-block;
     padding-right: .5rem;
 }
+/*Make links appear white when hovered over in the footer.*/
 footer a:hover {
     color: white;
 }
+/*This is a hack I have made the example uses an image of a > to have those as the list bullets.*/
 footer ul li {
     color: red;
 }
+footer a {
+    color: rgb(125, 143, 149);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+footer {
+    color: rgb(125, 143, 149);
+}
+/*This is a hack I have made the example uses an image of a > to have those as the list bullets.*/
 footer ul li::before {
     content: "> ";
+}
+footer h2 {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
 }
