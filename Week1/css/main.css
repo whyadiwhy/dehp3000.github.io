@@ -33,6 +33,16 @@ header nav ul li {
     display: inline-block;
     padding-right: 4rem;
 }
+.faq ul li {
+    text-transform: uppercase;
+    color: rgb(125, 143, 149);
+}
+.faq a.active {
+    color: #f3501e;
+}
+.faq a:hover {
+    color: red;
+}
 /*remove styling from unordered lists*/
 ul {
     list-style: none;
@@ -40,6 +50,7 @@ ul {
 /*remove underlines from links*/
 a {
     text-decoration: none;
+    color: rgb(125, 143, 149);
 }
 
 /*description list change foonts color and capitalize questions*/
