@@ -16,7 +16,7 @@ h1 {
     color: white;
     font-weight: bold;
     font-size: 3.4rem;
-    
+    padding-left: 4rem;
 }
 header p a{
     color: red;
@@ -28,6 +28,9 @@ header {
     background: linear-gradient(to bottom right, rgba(44, 45, 44, 1.0), rgba(6, 6, 6, 1.0));
     border-bottom: solid .1rem rgb(72, 72, 72);
     text-transform: uppercase;
+    max-width: 120rem;
+    display: block;
+    margin: auto;
 }
 header nav {
     border-bottom:solid .1rem rgb(72, 72, 72);
