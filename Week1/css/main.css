@@ -2,27 +2,46 @@
 html {
     font-size: 62.5%;
     background-color: black;
+    font: normal  Anton;
+}
+body {
+    background: rgba(44, 45, 44, 1.0);
+    background: -webkit-linear-gradient(top left, rgba(44, 45, 44, 1.0), rgba(6, 6, 6, 1.0));
+    background: -moz-linear-gradient(top left, rgba(44, 45, 44, 1.0), rgba(6, 6, 6, 1.0));
+    background: linear-gradient(to bottom right, rgba(44, 45, 44, 1.0), rgba(6, 6, 6, 1.0));
+    max-width: 120rem;
 }
 h1 {
-    font-size: 1rem;
     text-transform: uppercase;
     color: white;
     font-weight: bold;
-    font-size: 3.5rem;
+    font-size: 3.4rem;
+    
 }
-h1 em {
+header p a{
     color: red;
 }
 header {
-    background-color: black;
+    background: rgba(44, 45, 44, 1.0);
+    background: -webkit-linear-gradient(top left, rgba(44, 45, 44, 1.0), rgba(6, 6, 6, 1.0));
+    background: -moz-linear-gradient(top left, rgba(44, 45, 44, 1.0), rgba(6, 6, 6, 1.0));
+    background: linear-gradient(to bottom right, rgba(44, 45, 44, 1.0), rgba(6, 6, 6, 1.0));
     border-bottom: solid .1rem rgb(72, 72, 72);
+    text-transform: uppercase;
 }
 header nav {
     border-bottom:solid .1rem rgb(72, 72, 72);
-    
+    background-color: black;
+}
+nav a {
+    font-size: 2.1rem;
+    font-weight: bolder;
+    color: white;
+}
+header nav a:hover {
+    color: red;
 }
 header li {
-    font-size: 1.4rem;
     text-transform: uppercase;
 }
 header a {
@@ -31,17 +50,44 @@ header a {
 }/*display list items left to right and add spacing*/
 header nav ul li {
     display: inline-block;
-    padding-right: 4rem;
+    padding-right: 1rem;
+}
+.faq {
+    background: rgba(44, 45, 44, 1.0);
+    background: -webkit-linear-gradient(top left, rgba(44, 45, 44, 1.0), rgba(6, 6, 6, 1.0));
+    background: -moz-linear-gradient(top left, rgba(44, 45, 44, 1.0), rgba(6, 6, 6, 1.0));
+    background: linear-gradient(to bottom right, rgba(44, 45, 44, 1.0), rgba(6, 6, 6, 1.0));
+}
+.faq nav {
+    background-color: black;
+    padding: 1rem;
+    display: block;
+    margin: 0 auto;
+    max-width: 110rem;
+    padding-left: 0rem;
 }
 .faq ul li {
     text-transform: uppercase;
     color: rgb(125, 143, 149);
+    display: inline-block;
+    padding-right: 1rem;
 }
-.faq a.active {
+.faq li a {
+    font-size: 1rem;
+}
+.faq li:nth-of-type(3) a {
+    text-decoration: none;
     color: #f3501e;
 }
 .faq a:hover {
     color: red;
+}
+.faq dl dt {
+    padding-left: 4rem;
+    padding-bottom: 1rem;
+}
+.faq dl dd {
+    padding-bottom:  1rem;
 }
 /*remove styling from unordered lists*/
 ul {
@@ -51,6 +97,7 @@ ul {
 a {
     text-decoration: none;
     color: rgb(125, 143, 149);
+    font-size: 1rem;
 }
 
 /*description list change foonts color and capitalize questions*/
@@ -94,6 +141,10 @@ footer ul li::before {
 }
 footer h2 {
     color: white;
-    font-weight: bold;
+    font-weight: bolder;
     text-transform: uppercase;
+    font-size: 1.8rem;
+}
+.footernav a {
+    font-size: 1rem;
 }
