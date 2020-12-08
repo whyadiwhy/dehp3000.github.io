@@ -1,5 +1,6 @@
 /*Make font size easy*/
 html {
+    @import url('https://fonts.googleapis.com/css?family=normal+anton&display=swap');
     font-size: 62.5%;
     background-color: black;
     font: normal  Anton;
@@ -61,6 +62,7 @@ header nav ul li {
     background: linear-gradient(to bottom right, rgba(44, 45, 44, 1.0), rgba(6, 6, 6, 1.0));
     max-width: 120rem;
     margin: 0 auto;
+    font-size: 1.2rem;
 }
 .faq nav {
     background-color: black;
@@ -123,6 +125,35 @@ dl em {
     display: inline-block;
     padding-right: .5rem;
 }
+.social a {
+    text-indent: -9999px;
+    display: inline-block;
+}
+.social li:nth-of-type(1) a {
+    height: 24px;
+    width: 24px;
+    background-image: url("../images/twitter.png");
+}
+.social li:nth-of-type(2) a {
+    height: 24px;
+    width: 24px;
+    background-image: url("../images/facebook.png");
+}
+.social li:nth-of-type(3) a {
+    height: 24px;
+    width: 24px;
+    background-image: url("../images/flickr.png");
+}
+.social li:nth-of-type(4) a {
+    height: 24px;
+    width: 24px;
+    background-image: url("../images/feed.png");
+}
+.social li:nth-of-type(5) a {
+    height: 24px;
+    width: 24px;
+    background-image: url("../images/google.png");
+}
 /*Make links appear white when hovered over in the footer.*/
 footer a:hover {
     color: white;
@@ -153,4 +184,13 @@ footer h2 {
 }
 .footernav a {
     font-size: 1rem;
+}
+address a {
+    text-decoration: none;
+}
+address a:hover {
+    color: red;
+}
+#copyright {
+    color: white;
 }
