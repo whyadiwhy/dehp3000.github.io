@@ -194,3 +194,17 @@ address a:hover {
 #copyright {
     color: white;
 }
+#phone {
+    display: inline-block;
+    background-image: url("../images/square-phone-icon-19.jpg");
+    background-repeat: no-repeat;
+    background-size: 24px;
+    text-indent: 28px;
+}
+#address {
+    display: inline-block;
+    background-image: url("../images/home-7-24.png");
+    background-repeat: no-repeat;
+    background-size: 24px;
+    text-indent: 28px;
+}
