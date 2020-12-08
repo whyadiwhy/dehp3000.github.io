@@ -9,7 +9,6 @@ body {
     background: -webkit-linear-gradient(top left, rgba(44, 45, 44, 1.0), rgba(6, 6, 6, 1.0));
     background: -moz-linear-gradient(top left, rgba(44, 45, 44, 1.0), rgba(6, 6, 6, 1.0));
     background: linear-gradient(to bottom right, rgba(44, 45, 44, 1.0), rgba(6, 6, 6, 1.0));
-    max-width: 120rem;
 }
 h1 {
     text-transform: uppercase;
@@ -60,6 +59,8 @@ header nav ul li {
     background: -webkit-linear-gradient(top left, rgba(44, 45, 44, 1.0), rgba(6, 6, 6, 1.0));
     background: -moz-linear-gradient(top left, rgba(44, 45, 44, 1.0), rgba(6, 6, 6, 1.0));
     background: linear-gradient(to bottom right, rgba(44, 45, 44, 1.0), rgba(6, 6, 6, 1.0));
+    max-width: 120rem;
+    margin: 0 auto;
 }
 .faq nav {
     background-color: black;
@@ -137,6 +138,8 @@ footer a {
 }
 footer {
     color: rgb(125, 143, 149);
+    max-width: 120rem;
+    margin: 0 auto;
 }
 /*This is a hack I have made the example uses an image of a > to have those as the list bullets.*/
 footer ul li::before {
