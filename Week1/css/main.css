@@ -3,25 +3,56 @@ html {
     @import url('https://fonts.googleapis.com/css?family=normal+anton&display=swap');
     font-size: 62.5%;
     background-color: black;
-    font: normal  Anton;
-}
-body {
+    font: normal Anton;
+    }
+    body > section ::after {
+    content: "";
+    display: block;
+    clear: both;
+    }
+    body {
     background: rgba(44, 45, 44, 1.0);
     background: -webkit-linear-gradient(top left, rgba(44, 45, 44, 1.0), rgba(6, 6, 6, 1.0));
     background: -moz-linear-gradient(top left, rgba(44, 45, 44, 1.0), rgba(6, 6, 6, 1.0));
     background: linear-gradient(to bottom right, rgba(44, 45, 44, 1.0), rgba(6, 6, 6, 1.0));
-}
-h1 {
+    }
+    h1 {
     text-transform: uppercase;
     color: white;
     font-weight: bold;
     font-size: 3.4rem;
     padding-left: 4rem;
-}
-header p a{
+    }
+    img {
+        float: inline-end;
+        display: block;
+        margin: auto;
+        max-width: 252px;
+        height: 50px;
+        position: relative;
+        top: 5rem;
+    }
+    :first-of-type p ::after {
+    content: "";
+    display: block;
+    clear: both;
+    }
+    
+    :first-of-type p {
+    float: left;
+    padding: 5rem 1rem 5rem 0%;
+    }
+    p:nth-of-type(2) {
+    float: unset;
+    display: block;
+    margin: 0 auto;
+    padding: 0rem 20rem 0rem 58rem;
+    
+    }
+    header p a{
     color: red;
-}
-header {
+    }
+    header {
     background: rgba(44, 45, 44, 1.0);
     background: -webkit-linear-gradient(top left, rgba(44, 45, 44, 1.0), rgba(6, 6, 6, 1.0));
     background: -moz-linear-gradient(top left, rgba(44, 45, 44, 1.0), rgba(6, 6, 6, 1.0));
@@ -29,33 +60,40 @@ header {
     border-bottom: solid .1rem rgb(72, 72, 72);
     text-transform: uppercase;
     max-width: 120rem;
+    height: 50px;
     display: block;
     margin: auto;
-}
-header nav {
+    min-height: 200px;
+    }
+    header nav {
     border-bottom:solid .1rem rgb(72, 72, 72);
     background-color: black;
-}
-nav a {
+    }
+    nav ul {
+    display: block;
+    margin: auto;
+    max-width: 60rem;
+    }
+    nav a {
     font-size: 2.1rem;
     font-weight: bolder;
     color: white;
-}
-header nav a:hover {
+    }
+    header nav a:hover {
     color: red;
-}
-header li {
+    }
+    header li {
     text-transform: uppercase;
-}
-header a {
+    }
+    header a {
     color: white;
     font-weight: bold;
-}/*display list items left to right and add spacing*/
-header nav ul li {
+    }/*display list items left to right and add spacing*/
+    header nav ul li {
     display: inline-block;
     padding-right: 1rem;
-}
-.faq {
+    }
+    .faq {
     background: rgba(44, 45, 44, 1.0);
     background: -webkit-linear-gradient(top left, rgba(44, 45, 44, 1.0), rgba(6, 6, 6, 1.0));
     background: -moz-linear-gradient(top left, rgba(44, 45, 44, 1.0), rgba(6, 6, 6, 1.0));
@@ -63,148 +101,162 @@ header nav ul li {
     max-width: 120rem;
     margin: 0 auto;
     font-size: 1.2rem;
-}
-.faq nav {
+    display: block;
+    }
+    .faq nav {
     background-color: black;
     padding: 1rem;
     display: block;
     margin: 0 auto;
     max-width: 110rem;
     padding-left: 0rem;
-}
-.faq ul li {
+    }
+    .faq ul li {
     text-transform: uppercase;
     color: rgb(125, 143, 149);
     display: inline-block;
     padding-right: 1rem;
-}
-.faq li a {
+    }
+    .faq li a {
     font-size: 1rem;
-}
-.faq li:nth-of-type(3) a {
+    }
+    .faq li:nth-of-type(3) a {
     text-decoration: none;
     color: #f3501e;
-}
-.faq a:hover {
+    }
+    .faq a:hover {
     color: red;
-}
-.faq dl dt {
+    }
+    .faq dl dt {
     padding-left: 4rem;
     padding-bottom: 1rem;
-}
-.faq dl dd {
-    padding-bottom:  1rem;
-}
-/*remove styling from unordered lists*/
-ul {
+    }
+    .faq dl dd {
+    padding-bottom: 1rem;
+    }
+    /*remove styling from unordered lists*/
+    ul {
     list-style: none;
-}
-/*remove underlines from links*/
-a {
+    }
+    /*remove underlines from links*/
+    a {
     text-decoration: none;
     color: rgb(125, 143, 149);
     font-size: 1rem;
-}
-
-/*description list change foonts color and capitalize questions*/
-p {
+    }
+    
+    /*description list change foonts color and capitalize questions*/
+    p {
     color: rgb(125, 143, 149);
-}
-dl dt {
+    }
+    dl dt {
     text-transform: uppercase;
     color: red;
-}
-dl dd {
+    }
+    dl dd {
     color: rgb(125, 143, 149);
-}
-dl em {
+    }
+    dl em {
     color: red;
-}
-/*display list item for social media left to right and add spacing*/
-.social li {
+    }
+    /*display list item for social media left to right and add spacing*/
+    .social {
+    display: block;
+    margin: auto;
+    width: 25rem;
+    float: right;
+    position: absolute;
+    top: 10rem;
+    left: 90rem;
+    }
+    .social ul {
+    display: inline-block;
+    margin: auto;
+    }
+    .social li {
     display: inline-block;
     padding-right: .5rem;
-}
-.social a {
+    }
+    .social a {
     text-indent: -9999px;
     display: inline-block;
-}
-.social li:nth-of-type(1) a {
+    }
+    .social li:nth-of-type(1) a {
     height: 24px;
     width: 24px;
     background-image: url("../images/twitter.png");
-}
-.social li:nth-of-type(2) a {
+    }
+    .social li:nth-of-type(2) a {
     height: 24px;
     width: 24px;
     background-image: url("../images/facebook.png");
-}
-.social li:nth-of-type(3) a {
+    }
+    .social li:nth-of-type(3) a {
     height: 24px;
     width: 24px;
     background-image: url("../images/flickr.png");
-}
-.social li:nth-of-type(4) a {
+    }
+    .social li:nth-of-type(4) a {
     height: 24px;
     width: 24px;
     background-image: url("../images/feed.png");
-}
-.social li:nth-of-type(5) a {
+    }
+    .social li:nth-of-type(5) a {
     height: 24px;
     width: 24px;
     background-image: url("../images/google.png");
-}
-/*Make links appear white when hovered over in the footer.*/
-footer a:hover {
+    }
+    /*Make links appear white when hovered over in the footer.*/
+    footer a:hover {
     color: white;
-}
-/*This is a hack I have made the example uses an image of a > to have those as the list bullets.*/
-footer ul li {
+    }
+    /*This is a hack I have made the example uses an image of a > to have those as the list bullets.*/
+    footer ul li {
     color: red;
-}
-footer a {
+    }
+    footer a {
     color: rgb(125, 143, 149);
     font-weight: bold;
     text-transform: uppercase;
-}
-footer {
+    }
+    footer {
     color: rgb(125, 143, 149);
     max-width: 120rem;
     margin: 0 auto;
-}
-/*This is a hack I have made the example uses an image of a > to have those as the list bullets.*/
-footer ul li::before {
+    }
+    /*This is a hack I have made the example uses an image of a > to have those as the list bullets.*/
+    footer ul li::before {
     content: "> ";
-}
-footer h2 {
+    }
+    footer h2 {
     color: white;
     font-weight: bolder;
     text-transform: uppercase;
     font-size: 1.8rem;
-}
-.footernav a {
+    }
+    .footernav a {
     font-size: 1rem;
-}
-address a {
+    }
+    address a {
     text-decoration: none;
-}
-address a:hover {
+    }
+    address a:hover {
     color: red;
-}
-#copyright {
+    }
+    #copyright {
     color: white;
-}
-#phone {
+    }
+    #phone {
     display: inline-block;
     background-image: url("../images/square-phone-icon-19.jpg");
     background-repeat: no-repeat;
     background-size: 24px;
     text-indent: 28px;
-}
-#address {
+    }
+    #address {
     display: inline-block;
     background-image: url("../images/home-7-24.png");
     background-repeat: no-repeat;
     background-size: 24px;
     text-indent: 28px;
-}
+    }
