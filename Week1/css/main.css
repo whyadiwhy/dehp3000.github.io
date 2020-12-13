@@ -10,9 +10,6 @@ html {
     display: block;
     clear: both;
     }
-    body {
-        
-    }
     h1 {
     text-transform: uppercase;
     color: white;
@@ -21,24 +18,39 @@ html {
     padding-left: 4rem;
     }
     img {
-        max-width: 252px;
+        max-width: 300px;
+        padding: 2rem;
+        padding-left: 6rem;
     }
     header section:first-of-type p{
         margin: 2rem;
+        padding-top: 3rem;
     }
     header p a{
-    color: red;
+    color: #f3501e;
     }
     header section {
-        width: calc(100%/3 - 2rem);
+        width: calc(100%/3 - 5rem);
         float: left;
+        padding: 1rem;
+    }
+    header section:nth-of-type(2) p:nth-of-type(2) {
+        padding-left: 13rem;
+        margin-top: -3rem;
+    }
+    header section ul {
+        margin: auto;
+        display: block;
+        float: right;
+        padding-top: 4rem;
+        padding-right: 1rem;
     }
     header {
     background: rgba(44, 45, 44, 1.0);
     background: linear-gradient(to bottom right, rgba(44, 45, 44, 1.0), rgba(6, 6, 6, 1.0));
     border-bottom: solid .1rem rgb(72, 72, 72);
     text-transform: uppercase;
-    max-width: 120rem;
+    max-width:  120rem;
     height: 50px;
     display: block;
     margin: auto;
@@ -63,10 +75,11 @@ html {
     color: white;
     font-weight: bold;
     }
-    header ul {
+    header nav ul {
         margin: auto;
         display: block;
         width: 60rem;
+        padding: 1rem;
     }
     /*display list items left to right and add spacing*/
     header nav ul li {
@@ -78,6 +91,7 @@ html {
     max-width: 120rem;
     margin: 0 auto;
     font-size: 1.2rem;
+    font-family: sans-serif;
     display: block;
     }
     .faq nav {
@@ -100,7 +114,7 @@ html {
     color: #f3501e;
     }
     .faq a:hover {
-    color: red;
+    color: #f3501e;
     }
     .faq dl dt {
     padding-left: 4rem;
@@ -111,7 +125,7 @@ html {
     }
     .faq em {
         margin-right: 1rem;
-        color: red;
+        color: #f3501e;
         font-style: normal;
     }
     /*remove styling from unordered lists*/
@@ -131,25 +145,18 @@ html {
     }
     dl dt {
     text-transform: uppercase;
-    color: red;
+    color: #f3501e;
     }
     dl dd {
     color: rgb(125, 143, 149);
     }
     dl em {
-    color: red;
+    color:#f3501e;
     display: inline-block;
-    margin-right: ;
     }
-    /*display list item for social media left to right and add spacing*/
-    .social {
-    display: block;
-    margin: auto;
-    width: 25rem;
-    float: right;
-    position: absolute;
-    top: 10rem;
-    left: 90rem;
+    /*display list item for social media left to right and add spacing*/    
+    section:nth-of-type(3) {
+        float: right;
     }
     .social ul {
     display: inline-block;
@@ -216,7 +223,8 @@ html {
     font-weight: bolder;
     text-transform: uppercase;
     font-size: 1.8rem;
-    text-align: right;
+    text-align: left;
+    text-indent: 4rem;
     }
     .footernav a {
     font-size: 1rem;
