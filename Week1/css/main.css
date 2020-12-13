@@ -86,7 +86,7 @@ html {
     display: inline-block;
     padding-right: 1rem;
     }
-    .faq {
+    #faq {
     background-color: rgb(22,22,22);
     max-width: 120rem;
     margin: 0 auto;
@@ -94,36 +94,36 @@ html {
     font-family: sans-serif;
     display: block;
     }
-    .faq nav {
+    #faq nav {
     background-color: black;
     padding: 1rem;
     display: block;
     }
-    .faq ul li {
+    #faq ul li {
     text-transform: uppercase;
     color: rgb(125, 143, 149);
     display: inline-block;
     padding-right: 1rem;
     }
-    .faq li a {
+    #faq li a {
     font-size: 1rem;
     color: rgb(125, 143, 149);
     }
-    .faq li:nth-of-type(3) a {
+    #faq li:nth-of-type(3) a {
     text-decoration: none;
     color: #f3501e;
     }
-    .faq a:hover {
+    #faq a:hover {
     color: #f3501e;
     }
-    .faq dl dt {
+    #faq dl dt {
     padding-left: 4rem;
     padding-bottom: 1rem;
     }
-    .faq dl dd {
+    #faq dl dd {
     padding-bottom: 1rem;
     }
-    .faq em {
+    #faq em {
         margin-right: 1rem;
         color: #f3501e;
         font-style: normal;
