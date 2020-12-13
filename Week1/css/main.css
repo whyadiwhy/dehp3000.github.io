@@ -17,7 +17,7 @@ html {
     font-size: 3.4rem;
     padding-left: 4rem;
     }
-    img {
+    header img {
         max-width: 300px;
         padding: 2rem;
         padding-left: 6rem;
@@ -155,7 +155,7 @@ html {
     display: inline-block;
     }
     /*display list item for social media left to right and add spacing*/    
-    section:nth-of-type(3) {
+    header section:nth-of-type(3) {
         float: right;
     }
     .social ul {
