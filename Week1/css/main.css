@@ -62,7 +62,13 @@ html {
     header a {
     color: white;
     font-weight: bold;
-    }/*display list items left to right and add spacing*/
+    }
+    header ul {
+        margin: auto;
+        display: block;
+        width: 60rem;
+    }
+    /*display list items left to right and add spacing*/
     header nav ul li {
     display: inline-block;
     padding-right: 1rem;
@@ -245,11 +251,9 @@ html {
     #address {
         display: inline-block;
     }
-    #contact p:nth-of-type(3) {
-        margin-left: 3rem;
-    }
     #contact strong {
-        text-indent: 28px;
+        padding-left: 28px;
+        font-weight: normal;
     }
     #contact {
         float: right;
