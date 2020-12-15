@@ -3,267 +3,271 @@
 html {
     font-size: 62.5%;
     background: rgba(44, 45, 44, 1.0);
-    background: radial-gradient(rgba(44,45,44,1.0)), rgba(6, 6, 6, 1.0);    
+    background: radial-gradient(#2c2d2c,#060606);    
 }
-    body > section ::after {
-    content: "";
-    display: block;
-    clear: both;
-    }
-    h1 {
-    text-transform: uppercase;
-    color: white;
-    font-weight: bold;
-    font-size: 3.4rem;
-    padding-left: 4rem;
-    }
-    header img {
-        max-width: 300px;
-        padding: 2rem;
-        padding-left: 6rem;
-    }
-    header section:first-of-type p{
-        margin: 2rem;
-        padding-top: 3rem;
-    }
-    header p a{
-    color: #f3501e;
-    }
-    header section {
-        width: calc(100%/3 - 5rem);
-        float: left;
-        padding: 1rem;
-    }
-    header section:nth-of-type(2) p:nth-of-type(2) {
-        padding-left: 13rem;
-        margin-top: -3rem;
-    }
-    header section ul {
-        margin: auto;
-        display: block;
-        float: right;
-        padding-top: 4rem;
-        padding-right: 1rem;
-    }
-    header {
-    background: rgba(44, 45, 44, 1.0);
-    background: radial-gradient(rgba(44,45,44,1.0)), rgba(6, 6, 6, 1.0);
-    border-bottom: solid .1rem rgb(72, 72, 72);
-    text-transform: uppercase;
-    max-width:  120rem;
-    height: 50px;
-    display: block;
-    margin: auto;
-    min-height: 200px;
-    }
-    header nav {
-    border-bottom:solid .1rem rgb(72, 72, 72);
-    background-color: black;
-    }
-    nav a {
-    font-size: 2.1rem;
-    font-weight: bolder;
-    color: white;
-    }
-    header nav a:hover {
-    color: red;
-    }
-    header li {
-    text-transform: uppercase;
-    }
-    header a {
-    color: white;
-    font-weight: bold;
-    }
-    header nav ul {
-        margin: auto;
-        display: block;
-        width: 60rem;
-        padding: 1rem;
-    }
-    /*display list items left to right and add spacing*/
-    header nav ul li {
-    display: inline-block;
-    padding-right: 1rem;
-    }
-    #faq {
-    background-color: rgb(22,22,22);
-    max-width: 120rem;
-    margin: 0 auto;
-    font-size: 1.2rem;
-    font-family: sans-serif;
-    display: block;
-    }
-    #faq nav {
-    background-color: black;
+/*Clear fix*/
+body > section ::after {
+content: "";
+display: block;
+clear: both;
+}
+h1 {
+text-transform: uppercase;
+color: white;
+font-weight: bold;
+font-size: 3.4rem;
+padding-left: 4rem;
+}
+header img {
+    max-width: 300px;
+    padding: 2rem;
+    padding-left: 6rem;
+}
+header section:first-of-type p{
+    margin: 2rem;
+    padding-top: 3rem;
+}
+header p a{
+color: #f3501e;
+}
+header section {
+    width: calc(100%/3 - 5rem);
+    float: left;
     padding: 1rem;
-    display: block;
-    }
-    #faq ul li {
-    text-transform: uppercase;
-    color: rgb(125, 143, 149);
-    display: inline-block;
-    padding-right: 1rem;
-    }
-    #faq li a {
-    font-size: 1rem;
-    color: rgb(125, 143, 149);
-    }
-    #faq li:nth-of-type(3) a {
-    text-decoration: none;
-    color: #f3501e;
-    }
-    #faq a:hover {
-    color: #f3501e;
-    }
-    #faq dl dt {
-    padding-left: 4rem;
-    padding-bottom: 1rem;
-    }
-    #faq dl dd {
-    padding-bottom: 1rem;
-    }
-    #faq em {
-        margin-right: 1rem;
-        color: #f3501e;
-        font-style: normal;
-    }
-    /*remove styling from unordered lists*/
-    ul {
-    list-style: none;
-    }
-    /*remove underlines from links*/
-    a {
-    text-decoration: none;
-    color: rgb(125, 143, 149);
-    font-size: 1rem;
-    }
-    
-    /*description list change foonts color and capitalize questions*/
-    p {
-    color: rgb(125, 143, 149);
-    }
-    dl dt {
-    text-transform: uppercase;
-    color: #f3501e;
-    }
-    dl dd {
-    color: rgb(125, 143, 149);
-    }
-    dl em {
-    color:#f3501e;
-    display: inline-block;
-    }
-    /*display list item for social media left to right and add spacing*/    
-    header section:nth-of-type(3) {
-        float: right;
-    }
-    .social ul {
-    display: inline-block;
+}
+header section:nth-of-type(2) p:nth-of-type(2) {
+    padding-left: 13rem;
+    margin-top: -3rem;
+}
+header section ul {
     margin: auto;
-    }
-    .social li {
+    display: block;
+    float: right;
+    padding-top: 4rem;
+    padding-right: 1rem;
+}
+header {
+background: rgba(44, 45, 44, 1.0);
+background: radial-gradient(#2c2d2c,#060606); 
+border-bottom: solid .1rem rgb(72, 72, 72);
+text-transform: uppercase;
+max-width:  120rem;
+height: 50px;
+display: block;
+margin: auto;
+min-height: 200px;
+}
+header nav {
+border-bottom:solid .1rem rgb(72, 72, 72);
+background-color: black;
+}
+nav a {
+font-size: 2.1rem;
+font-weight: bolder;
+color: white;
+}
+header nav a:hover {
+color: red;
+}
+header li {
+text-transform: uppercase;
+}
+header a {
+color: white;
+font-weight: bold;
+}
+header nav ul {
+    margin: auto;
+    display: block;
+    width: 60rem;
+    padding: 1rem;
+}
+/*display list items left to right and add spacing*/
+header nav ul li {
+display: inline-block;
+padding-right: 1rem;
+}
+#faq {
+background-color: rgb(22,22,22);
+max-width: 120rem;
+margin: 0 auto;
+font-size: 1.2rem;
+font-family: sans-serif;
+display: block;
+}
+#faq nav {
+background-color: black;
+padding: 1rem;
+display: block;
+}
+#faq ul li {
+text-transform: uppercase;
+color: rgb(125, 143, 149);
+display: inline-block;
+padding-right: 1rem;
+}
+#faq li a {
+font-size: 1rem;
+color: rgb(125, 143, 149);
+}
+#faq li:nth-of-type(3) a {
+text-decoration: none;
+color: #f3501e;
+}
+#faq a:hover {
+color: #f3501e;
+}
+#faq dl dt {
+padding-left: 4rem;
+padding-bottom: 1rem;
+}
+#faq dl dd {
+padding-bottom: 1rem;
+}
+#faq em {
+    margin-right: 1rem;
+    color: #f3501e;
+    font-style: normal;
+}
+/*remove styling from unordered lists*/
+ul {
+list-style: none;
+}
+/*remove underlines from links*/
+a {
+text-decoration: none;
+color: rgb(125, 143, 149);
+font-size: 1rem;
+}
+
+/*description list change foonts color and capitalize questions*/
+p {
+color: rgb(125, 143, 149);
+}
+dl dt {
+text-transform: uppercase;
+color: #f3501e;
+}
+dl dd {
+color: rgb(125, 143, 149);
+}
+dl em {
+color:#f3501e;
+display: inline-block;
+}
+/*display list item for social media left to right and add spacing*/    
+header section:nth-of-type(3) {
+    float: right;
+}
+.social ul {
+display: inline-block;
+margin: auto;
+}
+.social li {
+display: inline-block;
+padding-right: .5rem;
+}
+.social a {
+text-indent: -9999px;
+display: inline-block;
+}
+.social li:nth-of-type(1) a {
+height: 24px;
+width: 24px;
+background-image: url("../images/twitter.png");
+}
+.social li:nth-of-type(2) a {
+height: 24px;
+width: 24px;
+background-image: url("../images/facebook.png");
+}
+.social li:nth-of-type(3) a {
+height: 24px;
+width: 24px;
+background-image: url("../images/flickr.png");
+}
+.social li:nth-of-type(4) a {
+height: 24px;
+width: 24px;
+background-image: url("../images/feed.png");
+}
+.social li:nth-of-type(5) a {
+height: 24px;
+width: 24px;
+background-image: url("../images/google.png");
+}
+/*Make links appear white when hovered over in the footer.*/
+footer a:hover {
+color: white;
+}
+/*This is a hack I have made the example uses an image of a > to have those as the list bullets.*/
+footer ul li {
+color: red;
+}
+footer a {
+color: rgb(125, 143, 149);
+font-weight: bold;
+text-transform: uppercase;
+}
+footer {
+color: rgb(125, 143, 149);
+max-width: 120rem;
+margin: 0 auto;
+background-color: rgb(22,22,22);
+border-top: solid .1rem rgb(72, 72, 72);;
+}
+/*This is a hack I have made the example uses an image of a > to have those as the list bullets.*/
+footer ul li::before {
+content: "> ";
+}
+footer h2 {
+color: white;
+font-weight: bolder;
+text-transform: uppercase;
+font-size: 1.8rem;
+text-align: left;
+text-indent: 4rem;
+}
+.footernav a {
+font-size: 1rem;
+}
+address a {
+text-decoration: none;
+}
+address a:hover {
+color: red;
+}
+#copyright {
+color: white;
+}
+#phone {
+background-image: url("../images/square-phone-icon-19.jpg");
+background-repeat: no-repeat;
+background-size: 24px;
+text-indent: 28px;
+}
+#address {
+background-image: url("../images/home-7-24.png");
+background-repeat: no-repeat;
+background-size: 24px;
+text-indent: 28px;
+}
+footer section {
+    width: calc(100%/5 -7rem);
+    padding: 1rem;
+    float: left;
+    margin-right: 5rem;
+}
+#address {
     display: inline-block;
-    padding-right: .5rem;
-    }
-    .social a {
-    text-indent: -9999px;
-    display: inline-block;
-    }
-    .social li:nth-of-type(1) a {
-    height: 24px;
-    width: 24px;
-    background-image: url("../images/twitter.png");
-    }
-    .social li:nth-of-type(2) a {
-    height: 24px;
-    width: 24px;
-    background-image: url("../images/facebook.png");
-    }
-    .social li:nth-of-type(3) a {
-    height: 24px;
-    width: 24px;
-    background-image: url("../images/flickr.png");
-    }
-    .social li:nth-of-type(4) a {
-    height: 24px;
-    width: 24px;
-    background-image: url("../images/feed.png");
-    }
-    .social li:nth-of-type(5) a {
-    height: 24px;
-    width: 24px;
-    background-image: url("../images/google.png");
-    }
-    /*Make links appear white when hovered over in the footer.*/
-    footer a:hover {
-    color: white;
-    }
-    /*This is a hack I have made the example uses an image of a > to have those as the list bullets.*/
-    footer ul li {
-    color: red;
-    }
-    footer a {
-    color: rgb(125, 143, 149);
-    font-weight: bold;
-    text-transform: uppercase;
-    }
-    footer {
-    color: rgb(125, 143, 149);
-    max-width: 120rem;
-    margin: 0 auto;
-    background-color: rgb(22,22,22);
-    border-top: solid .1rem rgb(72, 72, 72);;
-    }
-    /*This is a hack I have made the example uses an image of a > to have those as the list bullets.*/
-    footer ul li::before {
-    content: "> ";
-    }
-    footer h2 {
-    color: white;
-    font-weight: bolder;
-    text-transform: uppercase;
-    font-size: 1.8rem;
-    text-align: left;
-    text-indent: 4rem;
-    }
-    .footernav a {
-    font-size: 1rem;
-    }
-    address a {
-    text-decoration: none;
-    }
-    address a:hover {
-    color: red;
-    }
-    #copyright {
-    color: white;
-    }
-    #phone {
-    background-image: url("../images/square-phone-icon-19.jpg");
-    background-repeat: no-repeat;
-    background-size: 24px;
-    text-indent: 28px;
-    }
-    #address {
-    background-image: url("../images/home-7-24.png");
-    background-repeat: no-repeat;
-    background-size: 24px;
-    text-indent: 28px;
-    }
-    footer section {
-        width: calc(100%/5-10rem);
-        padding: 1rem;
-        float: left;
-        margin-right: 5rem;
-    }
-    #address {
-        display: inline-block;
-    }
-    #contact strong {
-        padding-left: 28px;
-        font-weight: normal;
-    }
-    #contact {
-        float: right;
-    }
+}
+#contact strong {
+    padding-left: 28px;
+    font-weight: normal;
+}
+#contact {
+    float: right;
+}
+.noh2 h2 {
+    display: none;
+}
