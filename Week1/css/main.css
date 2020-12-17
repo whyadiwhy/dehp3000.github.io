@@ -253,7 +253,7 @@ background-size: 24px;
 text-indent: 28px;
 }
 footer section {
-    width: calc(100%/5 -7rem);
+    width: calc(100%/5 - 7rem);
     padding: 1rem;
     float: left;
     margin-right: 5rem;
