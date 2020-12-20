@@ -1,0 +1,88 @@
+main {
+    max-width: 120rem;
+    margin: 0 auto;
+    height: 650px;
+}
+main nav {
+    background-color: black;
+}
+main nav a {
+    color: #f3501e;
+}
+main nav ul {
+    margin: auto;
+    display: block;
+}
+main nav ul li {
+    display: inline-block;
+    padding-right: 1rem;
+}
+main h2 {
+    color: #ffffff;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+/*Clear fix*/
+main > section ::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+form {
+    width: 500px;
+    height: 150px;
+}
+form::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#form-area {
+    width: 700px;
+    height: 200px;
+    float: right;
+}
+/*Make text areas all dark*/
+#form-area input{
+    background-color: rgba(15, 15, 15, .5);
+    border: none;
+}
+textarea {
+    background-color: rgba(15, 15, 15, .5);
+    border: none;
+}
+button {
+    color: #ffffff;
+    background-color: orangered;
+    border:  none;
+}
+#info {
+    display: block;
+    width: 400px;
+    float: left;
+}
+#info ::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#info p:nth-of-type(1) {
+    text-transform: uppercase;
+    color: orangered;
+}
+address {
+    color: rgb(125, 143, 149);
+}
+address a {
+    color: orangered;
+}
+address a:hover {
+    color: white;
+}
+img:nth-of-type(2) {
+    display: block;
+    width: 120rem;
+    margin: 0 auto;
+    text-align: center;
+    float: left;
+}
