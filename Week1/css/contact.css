@@ -1,7 +1,8 @@
+/*This area will deal with the entire content outside of headers and footers*/
 main {
     max-width: 120rem;
     margin: 0 auto;
-    height: 650px;
+    height: 750px;
 }
 main nav {
     background-color: black;
@@ -28,6 +29,7 @@ main > section ::after {
     display: block;
     clear: both;
 }
+/*Gave the forw a width and height to make it look correct*/
 form {
     width: 500px;
     height: 150px;
@@ -51,6 +53,7 @@ textarea {
     background-color: rgba(15, 15, 15, .5);
     border: none;
 }
+/*Style button to be that red/orange color and remove the border*/
 button {
     color: #ffffff;
     background-color: orangered;
@@ -66,6 +69,7 @@ button {
     display: block;
     clear: both;
 }
+/*Only transform the first paragraph to uppercase and orange/red color*/
 #info p:nth-of-type(1) {
     text-transform: uppercase;
     color: orangered;
@@ -79,10 +83,17 @@ address a {
 address a:hover {
     color: white;
 }
+/*Give the image tag dimension and center it*/
 img:nth-of-type(2) {
     display: block;
     width: 120rem;
     margin: 0 auto;
     text-align: center;
-    float: left;
+}
+/*Make the heading 2's the same size in these two sections.*/
+#info h2 {
+    font-size: 4rem;
+}
+#form-area h2 {
+    font-size: 4rem;
 }
